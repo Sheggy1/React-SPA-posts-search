@@ -1,0 +1,150 @@
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+  background: white;
+  color: black;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: black;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.menu {
+  padding: 5rem 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+.inputs {
+  border: 0.18rem solid #94B643;
+  border-radius: 80px;
+  border-style:solid;
+  margin-top: 10px;
+  width: 400px;
+  height: 35px;
+  font: optional;
+  font-size: larger;
+}
+
+.inform{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.underline {
+  width: 900px;
+  height: 0.25rem;
+  background: #94B643;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+.photo {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.15rem solid #94B643;
+  display: block;
+}
+
+
+@media screen and (min-width: 768px) {
+  .menu-item {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+  }
+  .photo {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section-center {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo {
+    height: 150px;
+  }
+}
+
+.buttons{
+  text-align: center;
+}
+
+.btn-1{
+   width: 220px;
+   height: 22px;
+   background: #94B643;
+   border-radius: 6px;
+   color: #eff1f2;
+   font-size: 12px;
+   margin-right: 10px; 
+}
+
+.btn-2{   width: 220px;
+   height: 22px;
+   background: #94B643;
+   border-radius: 6px;
+   color: #eff1f2;
+   font-size: 12px;
+   margin-right: 10px; 
+}
+
+.btn-3{   width: 220px;
+   height: 22px;
+   background: #94B643;
+   border-radius: 6px;
+   color: #eff1f2;
+   font-size: 12px;
+    margin-right: 10px; 
+}
